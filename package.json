@@ -1,0 +1,24 @@
+{
+  "name": "node-chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defra91/node-chatroom.git"
+  },
+  "author": "Luca De Franceschi <luca.defranceschi.91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defra91/node-chatroom/issues"
+  },
+  "homepage": "https://github.com/defra91/node-chatroom#readme",
+  "dependencies": {
+    "express": "4.14.0",
+    "socket.io": "1.4.6"
+  }
+}
