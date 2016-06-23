@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node lib/app.js"
+    "start": "ENV=development DB_URL=mongodb://127.0.0.1:27017/chat-db PORT=3000 DB_URL=127.0.0.1:27017 node lib/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/defra91/node-chatroom#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "4.14.0",
+    "mongoose": "4.5.1",
     "socket.io": "1.4.6"
   }
 }
